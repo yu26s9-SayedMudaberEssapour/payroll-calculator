@@ -1,5 +1,8 @@
 package com.pluralsight;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Employee {
 
     private int employeeId;
@@ -63,5 +66,29 @@ public class Employee {
 
         return result;
     }
+
+
+//    public void fileNameFromUser(String initialFile, String writeToFile){
+//
+//        //we are writing in the following format
+//        //id|name|grossPay
+//        //111|cameron Tay| 3277.65
+//
+//        try{
+//
+//            //opening the file here
+//            FileWriter writer = new FileWriter(writeToFile);
+//            //Writing to the file
+//            writer.write(initialFile);
+//
+//            writer.close();
+//
+//        }
+//        catch(IOException e){
+//            System.out.println("Error: An unexpected error occured");
+//            e.printStackTrace();
+//        }
+
+//    }
 
 }
